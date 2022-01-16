@@ -1,0 +1,25 @@
+// CARACTRISTICAS E CUIDADOS COM if
+
+function teste1(num) {
+    if(num > 7){
+        console.log(num)
+    }    
+        console.log('Final')
+    
+}
+
+teste1(6)
+teste1(8)
+
+function teste2(num) {
+    if(num > 7); {   //Cuidado com o ';', não usar com as estruturas de controle.
+        console.log(num)
+    }
+}
+
+teste2(6)
+teste2(8)
+
+
+// SÓ IMPRIMIU POR CONTA DO PONTO E VIRGULA ; DEPOIS DO if(num > 7);
+
